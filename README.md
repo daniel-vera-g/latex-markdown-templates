@@ -1,20 +1,28 @@
 # Latex markdown template
 
-This repository is a small collection of personal markdown templates for Pandoc.
+This repository is a small collection of personal markdown templates for Pandoc and python scripts to automate the compiling process.
 
 Each directory contains a working template and example PDF output.
 
 ## Requirements
 
+### Software
+
 Be sure to have LaTeX ([Windows](http://miktex.org/), [OS X](https://tug.org/mactex/),
-[Linux](http://latex-project.org/)) and Pandoc installed.
+[Linux](http://latex-project.org/)), Pandoc and Python installed.
 
 On macOS, Pandoc can be installed with Homebrew: `brew install pandoc`.
 
-For typesetting you can either use the `Makefile`s with `make` or just use `pandoc`.
+### Compiling
 
+1. If you use markdown, you can use either use the `Makefile` with `make` or just use `pandoc` for typesetting.
+2. If you write the file in latex you can use the python script to generate the latex file, populate it and covert it with the `pdf-latex` engine for pdf conversion.
+
+TODO
+<--
 For the `report-bib` you will need `pandoc-citeproc` too. On macOS that is easily installed with
 `brew install pandoc-citeproc`.
+!--> 
 
 ## Customization
 
@@ -22,41 +30,41 @@ If you want to see what Pandoc allows for customization you can use `pandoc -D l
 default LaTeX template. You can set variables with `-V/--variable` when using `pandoc` or preferably
 put them into a [YAML front matter](http://assemble.io/docs/YAML-front-matter.html).
 
-## TODO
 
 
-* Customize Templates
-* Create pre-commit linting for markdown files || Travis CI to test pandoc convertion 
-	* Check for grammar errrors
-	* convert to pdf
-	* Markdown linting
-	* Latex linting ...
-* Fix to use svg:
-Cannot determine size of graphic in ./img/brechung.svg (no Bound
-ingBox). + gif
-* remove numbering from images
-* pandoc  --template=template.tex --latex-engine=xelatex  -> Alias!
-
-# autokey
-
-latex image
-template & latex-engine as flags
 
 
-### TO-CHECK
 
-* `pandoc: Could not parse YAML header: mapping values are not allowed in this context "source" (line 4, column 6)` -> When adding `\usepackage[margin=0.5in]{geometry}`to the YAML header
-* Documentclass article in template for report
-* % Fix \tightlist error
-\def\tightlist{} -> In template
-* \usepackage{graphicx} -> In template for images
-* \begin{figure}[H]
-  \includegraphics[width=\linewidth]{./img/Vektoren_2.jpg}
-\end{figure} -> for right aligned immages
-* Script create pdf -> pandoc -o vektorielle-geometrie-new.pdf vektorielle-geometrie-new.md --template=template.tex --latex-engine=xelatex
 
-### Ideas
 
-1. Create Latex template
-2. Make or python script to create file with template
-3. pdflatex to convert latex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
