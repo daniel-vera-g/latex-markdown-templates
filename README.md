@@ -4,6 +4,10 @@ This repository is a small collection of personal markdown templates for Pandoc 
 
 Each directory contains a working template and example PDF output.
 
+## Usecase
+
+Use for short documentation of topics, lecture notes or exam preparation notes. For bigger reports either use one of the report templates or preferebly use text editing software like word of libre-office.
+
 ## Requirements
 
 ### Software
@@ -18,7 +22,7 @@ On macOS, Pandoc can be installed with Homebrew: `brew install pandoc`.
 1. If you use markdown, you can use either use the `Makefile` with `make` or just use `pandoc` for typesetting.
 2. If you write the file in latex you can use the python script to generate the latex file, populate it and covert it with the `pdf-latex` engine for pdf conversion.
 
-TODO
+<-- TODO !-->
 <--
 For the `report-bib` you will need `pandoc-citeproc` too. On macOS that is easily installed with
 `brew install pandoc-citeproc`.
