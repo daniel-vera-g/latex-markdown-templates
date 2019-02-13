@@ -1,12 +1,17 @@
 # Latex markdown template
 
-This repository is a small collection of personal markdown templates for Pandoc and python scripts to automate the compiling process.
+This repository is a small collection of personal templates for use with latex or markdown for editing and python scripts to automate the populating process.
 
 Each directory contains a working template and example PDF output.
 
-## Usecase
+## Python scripts
 
-Use for short documentation of topics, lecture notes or exam preparation notes. For bigger reports either use one of the report templates or preferebly use text editing software like word of libre-office.
+Python scripts are used to automate the population of latex files.
+
+## Markdown/Latex Templates
+
+Use for short documentation of topics, lecture notes or exam preparation notes.  
+For bigger reports either use one of the report templates.
 
 ## Requirements
 
