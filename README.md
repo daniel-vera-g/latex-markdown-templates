@@ -36,41 +36,8 @@ If you want to see what Pandoc allows for customization you can use `pandoc -D l
 default LaTeX template. You can set variables with `-V/--variable` when using `pandoc` or preferably
 put them into a [YAML front matter](http://assemble.io/docs/YAML-front-matter.html).
 
+## Actoknowledge
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This is mainly a fork of: <https://github.com/lauritzsh/pandoc-markdown-template>
 
 
