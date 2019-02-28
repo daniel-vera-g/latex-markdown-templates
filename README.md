@@ -1,6 +1,9 @@
 # Latex markdown template
 
-This repository is a small collection of personal templates for use with latex or markdown for editing and python scripts to automate the populating process.
+This repository is a small collection of:
+
+1. Personal templates for use with latex or markdown
+2. Python scripts to automate the populating process
 
 Each directory contains a working template and example PDF output.
 
@@ -39,5 +42,3 @@ put them into a [YAML front matter](http://assemble.io/docs/YAML-front-matter.ht
 ## Actoknowledge
 
 This is mainly a fork of: <https://github.com/lauritzsh/pandoc-markdown-template>
-
-
