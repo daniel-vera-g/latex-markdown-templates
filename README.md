@@ -16,6 +16,10 @@ Python scripts are used to automate the population of latex files.
 Use for short documentation of topics, lecture notes or exam preparation notes.  
 For bigger reports either use one of the report templates.
 
+## Latex templates
+
+Latex templates for personal use.
+
 ## Requirements
 
 ### Software
@@ -39,6 +43,6 @@ If you want to see what Pandoc allows for customization you can use `pandoc -D l
 default LaTeX template. You can set variables with `-V/--variable` when using `pandoc` or preferably
 put them into a [YAML front matter](http://assemble.io/docs/YAML-front-matter.html).
 
-## Actoknowledge
+## Acknowledge
 
 This is mainly a fork of: <https://github.com/lauritzsh/pandoc-markdown-template>
