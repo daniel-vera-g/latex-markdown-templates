@@ -89,3 +89,10 @@ Some useful resources, that gave me great informations:
 1. https://texwelt.de/wissen/fragen/884/welcher-latex-editor-fur-einsteiger-empfehlenswert
 2. https://en.wikipedia.org/wiki/TeXworks
 2. https://wiki.ubuntuusers.de/Kile/
+
+## Study workflow
+
+1. Table of contents -> Big Picture
+2. Theory -> Knowledge
+3. Exercises -> Enforce knowledge
+4. Sources -> Later reviewing of knowledge(Bibliography)
