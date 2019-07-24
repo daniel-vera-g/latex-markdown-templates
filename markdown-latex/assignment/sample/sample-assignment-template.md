@@ -1,7 +1,7 @@
 ---
-title: "[THEMA]"
+title: "[TOPIC]"
 author: Daniel Vera Gilliard
 date: \today
-subject: "[FACH]"
+subject: "[SUBJECT]"
 lang: "de"
 ...
