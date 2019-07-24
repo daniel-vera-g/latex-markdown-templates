@@ -13,7 +13,8 @@ Python scripts are used to automate the population of latex files.
 
 ## Markdown/Latex Templates
 
-Use for short documentation of topics, lecture notes or exam preparation notes.  
+Use for short documentation of topics, lecture notes or exam preparation notes.
+
 For bigger reports either use one of the report templates.
 
 ## Latex templates
@@ -45,4 +46,4 @@ put them into a [YAML front matter](http://assemble.io/docs/YAML-front-matter.ht
 
 ## Acknowledge
 
-See the resources documentation in `/documentation/resources.md`.
+See the resources in the [Tool documentations](https://github.com/daniel-vera-g/tool-documentations) repository under the latex directory.
